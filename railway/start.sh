@@ -4,6 +4,7 @@ DATA="${KWNT_DATA_DIR:-/data}"
 mkdir -p "$DATA/.home"
 chown -R kwnt:kwnt "$DATA" 2>/dev/null || true
 export HOME="$DATA/.home"
+export KWNT_PORT="${PORT:-${KWNT_PORT:-8080}}"
 if [ -z "${KWNT_ALLOWED_ORIGINS:-}" ] && [ -n "${RAILWAY_PUBLIC_DOMAIN:-}" ]; then
   export KWNT_ALLOWED_ORIGINS="https://${RAILWAY_PUBLIC_DOMAIN}"
 fi

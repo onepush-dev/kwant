@@ -10,7 +10,7 @@ This repository packages [kwant](https://github.com/alexsergivan/kwant) (AGPL-3.
 
 | Service | Image | What it does |
 |---|---|---|
-| `kwnt` | `ghcr.io/onepush-dev/kwant:0.7.6` = official `ghcr.io/alexsergivan/kwnt:0.7.6` + start script | Web UI + API on port 8799, data on a volume at `/data` |
+| `kwnt` | `ghcr.io/onepush-dev/kwant:0.7.6` = official `ghcr.io/alexsergivan/kwnt:0.7.6` + start script | Web UI + API on port 8080 (`$PORT`), data on a volume at `/data` |
 | `laya` | `ghcr.io/onepush-dev/kwant-laya:0.4.8` (upstream `docker/laya.Dockerfile`) | Model router that picks model/effort for bots set to `auto` (private only, ~2 GB RAM) |
 | `browser` | `ghcr.io/onepush-dev/kwant-browser:0.7.6` (upstream `docker/browser.Dockerfile`) | The bots' private headless Chromium over CDP (private only) |
 

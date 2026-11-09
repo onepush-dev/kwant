@@ -2,7 +2,7 @@
 
 kwant — a self-hosted team of AI bots that share chats, hand work to each other and verify what they finish. Deploy on Railway with one click.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/TEMPLATE_CODE)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/wncUDM)
 
 This repository packages [kwant](https://github.com/alexsergivan/kwant) (AGPL-3.0; upstream also offers a commercial licence) for Railway, following upstream's own `docker-compose.yml` (kwnt + Laya router + private Chromium). It is an independent community packaging, not affiliated with or endorsed by the kwant project.
 
